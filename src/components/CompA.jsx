@@ -16,7 +16,7 @@ export default function CompA() {
 //     setCount(0);
 //     // console.log("cc", count);
     //   }
-    const [count, increment, decrement, reset] = useCounter(0);
+    const [count, increment, decrement, reset] = useCounter(0,2);
   return (
     <>
       <h1>Comp A</h1>
