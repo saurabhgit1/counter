@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CompA, CompB } from "./components";
+import { CompA, CompB, UserForm } from "./components";
 import "./App.css";
 
 function App() {
@@ -7,8 +7,10 @@ function App() {
 
   return (
     <>
+      <h1>Form Example</h1>
+      <UserForm></UserForm>
       <h1>Counter Example</h1>
-      <CompA ></CompA>
+      <CompA></CompA>
       <CompB></CompB>
     </>
   );
